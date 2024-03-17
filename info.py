@@ -13,7 +13,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('BQGlZx4Aof8s4VTu0nGtjYO9LVsim_OSDrv2xzZo9lQ8M75g2Q8Jw4wWQZYMrQlJxP1k2bYpw7zAexWNQcQUiF0KuLY7hySQqx8JpzbKotemFyI52wKvd1RYnhZ1JPpxYViMKP5SPrf2I-_UXscLeTHx4LbRfVoQt5aNXEzdknMBV9AG6YUlL1cipms0a6bsQDe_6yMd8ShIDMBFH-ie4PO-crhUGEbQT1suc4A5JGJ4DdVKvTb7VODeTSJJfyOYuJ_zVRPnSnO94MWTOYwIrOZuvoQ80ZXRPmQoVAnhryj9bfxvWIipEoJny3OgNBC8IPzkQXHatejemKcBlqH8u_RxeC6MJQAAAAAS1GglAA', 'Media_search')
+SESSION = environ.get('VenomMovie', 'Media_search')
 API_ID = environ.get('API_ID', '27617054')
 API_HASH = environ.get('9dba979fbbb2152772a21f66f11116a4')
 BOT_TOKEN = environ.get('7081840649:AAEqj7Eara5pmo9sy4BBXncvbzPXtjYOdoU')
@@ -29,7 +29,7 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/61ef9818986cef9554
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1654334233').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002125043839').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002026830023 -1002038220265').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1654334233').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('-1002125043839')
