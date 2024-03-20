@@ -14,8 +14,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('VenomMovie', 'Media_search')
-API_ID = environ.get('API_ID', '22663326')
-API_HASH = environ.get('927e822ca6e854d8b7369c72ab9506e4')
+API_ID = environ.get('API_ID', '27617054')
+API_HASH = environ.get('9dba979fbbb2152772a21f66f11116a4')
 BOT_TOKEN = environ.get('7081840649:AAEqj7Eara5pmo9sy4BBXncvbzPXtjYOdoU')
 
 # Bot settings
